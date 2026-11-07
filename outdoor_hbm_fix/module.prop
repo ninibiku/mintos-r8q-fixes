@@ -1,0 +1,6 @@
+id=outdoor_hbm_fix
+name=Outdoor Brightness Fix (r8q)
+version=v16.0
+versionCode=16
+author=ninibiku
+description=Fixes Outdoor mode turning the screen DARKER (framework asks for 486 but clamping maps it to ~26), auto-brightness capping below the panel's 800 nit ceiling, and HDR playback being pinned at 380 nits with a dead brightness slider. Parks the framework's own brightness target before ramping so the climb is one smooth uncontested sweep, debounces engage/release, only reacts to full-size HDR layers, reconciles the panel against the framework's belief, and stands down as soon as the user moves the slider. Write 0..486 into hdr_cap to change the HDR target (0 disables it).

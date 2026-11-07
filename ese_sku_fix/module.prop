@@ -1,0 +1,6 @@
+id=ese_sku_fix
+name=Secure Element SKU Fix
+version=v1.0
+versionCode=1
+author=ninibiku
+description=Fixes missing ro.boot.hardware.sku so the secure_element HAL starts (fixes com.android.se ANR / system freeze on MintOS r8q port).

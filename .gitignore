@@ -1,0 +1,7 @@
+dist/
+*.zip
+*.log
+saved_settings
+hdr_cap
+.DS_Store
+Thumbs.db
